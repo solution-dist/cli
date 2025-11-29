@@ -12,4 +12,7 @@ export default defineConfig({
     external            : ['bun'],
     target              : 'es2022',
     outDir              : 'dist',
+    banner              : {
+        js              : '#!/usr/bin/env bun'
+    },
 });

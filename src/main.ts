@@ -1,4 +1,3 @@
-#!/usr/bin/env bun
 // src/main.ts
 //
 // Made with ❤️ by Maysara.
