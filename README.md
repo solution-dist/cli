@@ -74,7 +74,6 @@
                 ┣ test          # The tests folder
                 ┃ ┗ ...
                 ┃
-                ┣ .env          # The environment configuration file
                 ┣ .space        # The space configuration file
 
                 # You can safely hide/ignore the rest of files.
