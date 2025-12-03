@@ -8,10 +8,12 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/v-{{version}}-black"/>
-    <a href="{{author_url}}">
-    </a>
-    <a href="{{homepage}}"> <img src="https://img.shields.io/badge/{{tag-badge}}-black"/> </a>
+    <img src="https://img.shields.io/badge/v-0.0.1-black"/>
+    <img src="https://img.shields.io/badge/🔥-@solution--lib-black"/>
+    <br>
+    <img src="https://github.com/solution-dist/cli/actions/workflows/ci.yml/badge.svg" alt="CI" />
+    <img src="https://img.shields.io/github/issues/solution-dist/cli?style=flat" alt="Github Repo Issues" />
+    <img src="https://img.shields.io/github/stars/solution-dist/cli?style=social" alt="GitHub Repo stars" />
 </div>
 <br>
 
@@ -62,29 +64,23 @@
             - ##### Root
 
                 ```bash
-                ┣ assets        # The assets folder
-                ┃ ┗ ...
+                ┣ assets
+                ┃ ┗ ...            #  (logo.png, ..)
                 ┃
-                ┣ dist          # The distribution folder
-                ┃ ┗ ...
+                ┣ dist
+                ┃ ┗ ...            # (main.js, main.js.map, ..)
                 ┃
-                ┣ src           # The source-code folder
-                ┃ ┗ ...
+                ┣ src
+                ┃ ┗ main.ts        # Main entry point
                 ┃
-                ┣ test          # The tests folder
-                ┃ ┗ ...
+                ┣ test
+                ┃ ┗ main.test.ts   # Main test file
                 ┃
-                ┣ .env          # The environment configuration file
-                ┣ .space        # The space configuration file
+                ┣ .env              # Environment configuration file
+                ┗ .space            # Space configuration file
 
                 # You can safely hide/ignore the rest of files.
                 ```
-
-                - ##### `src`
-
-                    ```bash
-                    ┗ main.ts   # The main entry point
-                    ```
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
 

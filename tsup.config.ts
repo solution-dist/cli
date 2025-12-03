@@ -9,7 +9,13 @@ export default defineConfig({
     clean               : true,
     minify              : true,
     treeshake           : true,
-    external            : ['bun'],
+    external            : [
+        // Bun runtime
+        'bun',
+
+        // Dependencies
+        '@je-es/cli',
+    ],
     target              : 'es2022',
     outDir              : 'dist',
     banner              : {
