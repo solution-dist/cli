@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/🔥-@solution--lib-black"/>
     <br>
     <img src="https://github.com/solution-dist/cli/actions/workflows/ci.yml/badge.svg" alt="CI" />
+    <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Test Coverage" />
     <img src="https://img.shields.io/github/issues/solution-dist/cli?style=flat" alt="Github Repo Issues" />
     <img src="https://img.shields.io/github/stars/solution-dist/cli?style=social" alt="GitHub Repo stars" />
 </div>
