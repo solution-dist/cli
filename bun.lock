@@ -4,7 +4,7 @@
     "": {
       "name": "@{{org}}/{{repo}}",
       "dependencies": {
-        "@je-es/cli": "^1.1.3",
+        "@je-es/cli": "^1.1.4",
       },
       "devDependencies": {
         "@eslint/js": "^9.34.0",
@@ -104,7 +104,7 @@
 
     "@humanwhocodes/retry": ["@humanwhocodes/retry@0.4.3", "", {}, "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ=="],
 
-    "@je-es/cli": ["@je-es/cli@1.1.3", "", { "peerDependencies": { "bun": ">=1.3.3" } }, "sha512-DS5LZuvvZuUgwk3R8BdKnG8xY2egbqWb04AZawq0wuHsJagEHQH7SKwcfqglhjcQmu/dr8yisraCRk9vMHn/ng=="],
+    "@je-es/cli": ["@je-es/cli@1.1.4", "", { "peerDependencies": { "bun": ">=1.3.3" } }, "sha512-xJ7ASpeJghajaAtBKlMo57JkqLaYXwVCDigh28jv4xDoSIY6RqQJVaIFDaUbQvT/ARa2/NZ493qebF19KLxjvQ=="],
 
     "@jridgewell/gen-mapping": ["@jridgewell/gen-mapping@0.3.13", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA=="],
 
